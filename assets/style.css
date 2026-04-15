@@ -1,0 +1,180 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+/* links */
+a {
+    text-decoration: none;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    padding: 12px 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* =========================
+   CARDS (ITEMS)
+========================= */
+
+.card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.card-img-top {
+    transition: 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.03);
+}
+
+.card-body h5 {
+    font-weight: 600;
+}
+
+.card-footer {
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+/* =========================
+   FORMS
+========================= */
+
+input, textarea, select {
+    border-radius: 10px !important;
+    border: 1px solid #ddd !important;
+    padding: 10px !important;
+    transition: 0.2s;
+}
+
+input:focus, textarea:focus {
+    border-color: #0d6efd !important;
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,.15) !important;
+}
+
+/* =========================
+   CHAT
+========================= */
+
+.chat-box {
+    height: 450px;
+    overflow-y: auto;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+.msg {
+    padding: 10px 14px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    max-width: 75%;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.msg.me {
+    background: linear-gradient(135deg, #d1e7dd, #bfe8d0);
+    margin-left: auto;
+    text-align: right;
+}
+
+.msg.other {
+    background: #f1f3f5;
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.badge {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* =========================
+   ALERTS
+========================= */
+
+.alert {
+    border-radius: 12px;
+}
+
+/* =========================
+   CONTAINER IMPROVEMENT
+========================= */
+
+.container {
+    max-width: 1100px;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+.card, .btn, input, textarea {
+    transition: all 0.2s ease-in-out;
+}
+
+/* =========================
+   EMPTY STATE
+========================= */
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #777;
+}
+
+.empty-state h3 {
+    font-weight: 600;
+}
+
+/* =========================
+   SMALL FIXES
+========================= */
+
+small {
+    color: #666;
+}
